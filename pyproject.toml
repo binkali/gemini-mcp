@@ -1,0 +1,17 @@
+[project]
+name = "gemini-mcp-timon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Annercant2", email = "298365714+binkali@users.noreply.github" }
+]
+requires-python = ">=3.15"
+dependencies = []
+
+[project.scripts]
+gemini-mcp-timon = "gemini_mcp_timon:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
